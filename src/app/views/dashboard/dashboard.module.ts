@@ -22,4 +22,10 @@ import { DashboardV4Component } from './dashboard-v4/dashboard-v4.component';
   ],
   declarations: [DashboadDefaultComponent, DashboardV2Component, DashboardV3Component, DashboardV4Component]
 })
-export class DashboardModule { }
+export class DashboardModule { 
+
+  message="This is readonly field";
+
+  canEdit=false;
+
+}

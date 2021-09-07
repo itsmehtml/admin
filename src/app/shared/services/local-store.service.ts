@@ -11,6 +11,7 @@ export class LocalStoreService {
   public setItem(key, value) {
     value = JSON.stringify(value);
     this.ls.setItem(key, value);
+   
     return true;
   }
 
